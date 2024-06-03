@@ -1,0 +1,146 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-input {
+  border: 1px solid #ccc;
+  border-radius: 8px 8px 0 0; /* Top-left and top-right corners curved */
+  padding: 8px 12px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-error {
+  border-color: red; /* Example of styling for input with errors */
+}
+
+.title{
+  width: 150px;
+  height: 80px;
+  top: 136px;
+  left: 547px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Jomhuria;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: left;
+  color: #474444;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 5%;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #474444;
+  background-color: white;
+  box-shadow: 0px 0px 25px 0px #00000026;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: box-shadow 0.3s ease, border 0.3s ease; */
+  height: 30px;
+}
+
+
+.button:hover {
+  background-color: #e6e6e6;
+}
+
+.button.active {
+  border: 2px solid #0000ff;
+  box-shadow: 0 0 10px 7px rgba(108, 108, 241, 0.5);
+}
+
+.form-container {
+  width: 150%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(53, 52, 52, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 300px;
+  color:#474444;
+  margin-top: 8px;
+ 
+}
+
+.form-input {
+  width: 180%;
+  padding: 5px;
+  border: 0.5px solid #ccc;
+  /* border-radius: 5px; */
+  box-sizing: border-box;
+  background: #F4F4F4;
+  height:30px;
+  border-style: none;
+  border-radius:10px, 10px, 0px, 0px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.line{
+  border: 1px solid #000000;
+  width: 120px;
+  height: 0px;
+  top: 763px;
+  left: 38px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 65%;
+  margin-left: 60px;
+}
+
+.cancel{
+  box-shadow: #e6e6e6;
+}
+
+.green-radio:checked + button {
+  background-color: #60B84B;
+  color: white;
+}
+
+.input-error {
+  border-color: red;
+  color: red;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+button:hover {
+  color: blue;
+}
+
+button svg {
+  margin-right: 5px;
+}
+
